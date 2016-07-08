@@ -1,6 +1,5 @@
 spring:
-  profiles:
-    active: test
+  profiles: test
 rws:
   be: http://localhost:8001/routes
   fe: http://localhost:8002/routes
