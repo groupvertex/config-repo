@@ -1,7 +1,10 @@
 rws:
   be: http://localhost:8001/routes
   fe: http://localhost:8002/routes
-
+  
+jwt:
+  header: Authorization
+  
 ls:
   fe: http://localhost:8003/login
   signup: http://localhost:8003/login/signup
